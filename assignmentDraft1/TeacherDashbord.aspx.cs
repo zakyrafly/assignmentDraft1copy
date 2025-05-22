@@ -72,16 +72,16 @@ namespace assignmentDraft1
 
                     // Get teacher's course statistics
                     string statsQuery = @"
-                        SELECT 
-                            COUNT(DISTINCT c.CourseID) as TotalCourses,
-                            COUNT(DISTINCT uc.UserID) as TotalStudents,
-                            COUNT(DISTINCT a.AssignmentID) as TotalAssignments,
-                            COUNT(DISTINCT m.MaterialID) as TotalMaterials
-                        FROM Courses c
-                        LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
-                        LEFT JOIN Assignments a ON c.CourseID = a.CourseID AND a.IsActive = 1
-                        LEFT JOIN Materials m ON c.CourseID = m.CourseID AND m.IsActive = 1
-                        WHERE c.CreatedBy = @teacherId AND c.IsActive = 1";
+                            SELECT 
+                                COUNT(DISTINCT c.CourseID) as TotalCourses,
+                                COUNT(DISTINCT uc.UserID) as TotalStudents,
+                                COUNT(DISTINCT a.AssignmentID) as TotalAssignments,
+                                COUNT(DISTINCT m.MaterialID) as TotalMaterials
+                            FROM Courses c
+                            LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
+                            LEFT JOIN Assignments a ON c.CourseID = a.CourseID AND a.IsActive = 1
+                            LEFT JOIN Materials m ON c.CourseID = m.CourseID AND m.IsActive = 1
+                            WHERE c.CreatedBy = @teacherId AND c.IsActive = 1";
 
                     SqlCommand cmd = new SqlCommand(statsQuery, con);
                     cmd.Parameters.AddWithValue("@teacherId", teacherId);
@@ -91,12 +91,12 @@ namespace assignmentDraft1
                     if (reader.Read())
                     {
                         var stats = new List<object>
-                        {
-                            new { Icon = "fa-book", Value = reader["TotalCourses"].ToString(), Title = "Active Courses" },
-                            new { Icon = "fa-users", Value = reader["TotalStudents"].ToString(), Title = "Total Students" },
-                            new { Icon = "fa-tasks", Value = reader["TotalAssignments"].ToString(), Title = "Assignments" },
-                            new { Icon = "fa-file-alt", Value = reader["TotalMaterials"].ToString(), Title = "Course Materials" }
-                        };
+                            {
+                                new { Icon = "fa-book", Value = reader["TotalCourses"].ToString(), Title = "Active Courses" },
+                                new { Icon = "fa-users", Value = reader["TotalStudents"].ToString(), Title = "Total Students" },
+                                new { Icon = "fa-tasks", Value = reader["TotalAssignments"].ToString(), Title = "Assignments" },
+                                new { Icon = "fa-file-alt", Value = reader["TotalMaterials"].ToString(), Title = "Course Materials" }
+                            };
 
                         rptStats.DataSource = stats;
                         rptStats.DataBind();
@@ -106,12 +106,12 @@ namespace assignmentDraft1
                 {
                     // Handle error - show default stats
                     var defaultStats = new List<object>
-                    {
-                        new { Icon = "fa-book", Value = "0", Title = "Active Courses" },
-                        new { Icon = "fa-users", Value = "0", Title = "Total Students" },
-                        new { Icon = "fa-tasks", Value = "0", Title = "Assignments" },
-                        new { Icon = "fa-file-alt", Value = "0", Title = "Course Materials" }
-                    };
+                        {
+                            new { Icon = "fa-book", Value = "0", Title = "Active Courses" },
+                            new { Icon = "fa-users", Value = "0", Title = "Total Students" },
+                            new { Icon = "fa-tasks", Value = "0", Title = "Assignments" },
+                            new { Icon = "fa-file-alt", Value = "0", Title = "Course Materials" }
+                        };
 
                     rptStats.DataSource = defaultStats;
                     rptStats.DataBind();
@@ -127,17 +127,17 @@ namespace assignmentDraft1
             using (SqlConnection con = new SqlConnection(cs))
             {
                 string query = @"
-                    SELECT 
-                        c.CourseID, 
-                        c.CourseName as CourseTitle, 
-                        ISNULL(c.Description, 'No description available') as CourseDescription,
-                        COUNT(DISTINCT uc.UserID) as TotalStudents,
-                        75 as CompletionRate
-                    FROM Courses c
-                    LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
-                    WHERE c.CreatedBy = @teacherId AND c.IsActive = 1
-                    GROUP BY c.CourseID, c.CourseName, c.Description
-                    ORDER BY c.CreatedDate DESC";
+                        SELECT 
+                            c.CourseID, 
+                            c.CourseName as CourseTitle, 
+                            ISNULL(c.Description, 'No description available') as CourseDescription,
+                            COUNT(DISTINCT uc.UserID) as TotalStudents,
+                            75 as CompletionRate
+                        FROM Courses c
+                        LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
+                        WHERE c.CreatedBy = @teacherId AND c.IsActive = 1
+                        GROUP BY c.CourseID, c.CourseName, c.Description
+                        ORDER BY c.CreatedDate DESC";
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@teacherId", teacherId);
@@ -173,16 +173,16 @@ namespace assignmentDraft1
             using (SqlConnection con = new SqlConnection(cs))
             {
                 string query = @"
-                    SELECT 
-                        c.CourseID,
-                        c.CourseName as CourseTitle,
-                        COUNT(m.MaterialID) as MaterialCount
-                    FROM Courses c
-                    LEFT JOIN Materials m ON c.CourseID = m.CourseID AND m.IsActive = 1
-                    WHERE c.CreatedBy = @teacherId AND c.IsActive = 1
-                    GROUP BY c.CourseID, c.CourseName
-                    HAVING COUNT(m.MaterialID) > 0
-                    ORDER BY c.CourseName";
+                        SELECT 
+                            c.CourseID,
+                            c.CourseName as CourseTitle,
+                            COUNT(m.MaterialID) as MaterialCount
+                        FROM Courses c
+                        LEFT JOIN Materials m ON c.CourseID = m.CourseID AND m.IsActive = 1
+                        WHERE c.CreatedBy = @teacherId AND c.IsActive = 1
+                        GROUP BY c.CourseID, c.CourseName
+                        HAVING COUNT(m.MaterialID) > 0
+                        ORDER BY c.CourseName";
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@teacherId", teacherId);
@@ -218,15 +218,15 @@ namespace assignmentDraft1
             using (SqlConnection con = new SqlConnection(cs))
             {
                 string query = @"
-                    SELECT TOP 10 
-                        u.Name as StudentName, 
-                        u.username as StudentEmail, 
-                        75 as Progress
-                    FROM Users u
-                    INNER JOIN UserCourses uc ON u.UserID = uc.UserID
-                    INNER JOIN Courses c ON uc.CourseID = c.CourseID
-                    WHERE c.CreatedBy = @teacherId AND u.Role = 'Student'
-                    ORDER BY u.Name";
+                        SELECT TOP 10 
+                            u.Name as StudentName, 
+                            u.username as StudentEmail, 
+                            75 as Progress
+                        FROM Users u
+                        INNER JOIN UserCourses uc ON u.UserID = uc.UserID
+                        INNER JOIN Courses c ON uc.CourseID = c.CourseID
+                        WHERE c.CreatedBy = @teacherId AND u.Role = 'Student'
+                        ORDER BY u.Name";
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@teacherId", teacherId);
@@ -262,20 +262,20 @@ namespace assignmentDraft1
             using (SqlConnection con = new SqlConnection(cs))
             {
                 string query = @"
-                    SELECT 
-                        a.AssignmentID,
-                        a.AssignmentTitle,
-                        c.CourseName as CourseTitle,
-                        a.DueDate,
-                        0 as SubmissionCount,
-                        COUNT(DISTINCT uc.UserID) as TotalStudents,
-                        a.Status
-                    FROM Assignments a
-                    INNER JOIN Courses c ON a.CourseID = c.CourseID
-                    LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
-                    WHERE a.CreatedBy = @teacherId AND a.IsActive = 1
-                    GROUP BY a.AssignmentID, a.AssignmentTitle, c.CourseName, a.DueDate, a.Status
-                    ORDER BY a.DueDate DESC";
+                        SELECT 
+                            a.AssignmentID,
+                            a.AssignmentTitle,
+                            c.CourseName as CourseTitle,
+                            a.DueDate,
+                            0 as SubmissionCount,
+                            COUNT(DISTINCT uc.UserID) as TotalStudents,
+                            a.Status
+                        FROM Assignments a
+                        INNER JOIN Courses c ON a.CourseID = c.CourseID
+                        LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
+                        WHERE a.CreatedBy = @teacherId AND a.IsActive = 1
+                        GROUP BY a.AssignmentID, a.AssignmentTitle, c.CourseName, a.DueDate, a.Status
+                        ORDER BY a.DueDate DESC";
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@teacherId", teacherId);
@@ -311,17 +311,17 @@ namespace assignmentDraft1
             using (SqlConnection con = new SqlConnection(cs))
             {
                 string query = @"
-                    SELECT 
-                        c.CourseName as CourseTitle,
-                        COUNT(DISTINCT uc.UserID) as TotalStudents,
-                        75 as CompletionRate,
-                        85 as AverageGrade,
-                        45 as AvgActiveTime
-                    FROM Courses c
-                    LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
-                    WHERE c.CreatedBy = @teacherId AND c.IsActive = 1
-                    GROUP BY c.CourseID, c.CourseName
-                    ORDER BY COUNT(DISTINCT uc.UserID) DESC";
+                        SELECT 
+                            c.CourseName as CourseTitle,
+                            COUNT(DISTINCT uc.UserID) as TotalStudents,
+                            75 as CompletionRate,
+                            85 as AverageGrade,
+                            45 as AvgActiveTime
+                        FROM Courses c
+                        LEFT JOIN UserCourses uc ON c.CourseID = uc.CourseID
+                        WHERE c.CreatedBy = @teacherId AND c.IsActive = 1
+                        GROUP BY c.CourseID, c.CourseName
+                        ORDER BY COUNT(DISTINCT uc.UserID) DESC";
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@teacherId", teacherId);

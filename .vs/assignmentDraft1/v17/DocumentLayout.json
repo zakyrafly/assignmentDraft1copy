@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\loginwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\loginwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\teacherdashbord.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\teacherdashbord.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\teacherdashbord.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\teacherdashbord.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\loginwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\loginwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TeacherDashbord.aspx",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\TeacherDashbord.aspx",
+              "RelativeDocumentMoniker": "assignmentDraft1\\TeacherDashbord.aspx",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\TeacherDashbord.aspx",
+              "RelativeToolTip": "assignmentDraft1\\TeacherDashbord.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-22T07:35:00.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "loginWebform.aspx",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\loginWebform.aspx",
               "RelativeDocumentMoniker": "assignmentDraft1\\loginWebform.aspx",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\Web.config",
               "RelativeDocumentMoniker": "assignmentDraft1\\Web.config",
@@ -86,14 +103,14 @@
               "RelativeDocumentMoniker": "assignmentDraft1\\TeacherDashbord.aspx.cs",
               "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\TeacherDashbord.aspx.cs",
               "RelativeToolTip": "assignmentDraft1\\TeacherDashbord.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHEBAAAAAAAAAADwv4oBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T07:20:40.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "createAssignment.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\createAssignment.aspx.cs",
               "RelativeDocumentMoniker": "assignmentDraft1\\createAssignment.aspx.cs",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "createAssignment.aspx",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\createAssignment.aspx",
               "RelativeDocumentMoniker": "assignmentDraft1\\createAssignment.aspx",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "uploadMaterial.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\uploadMaterial.aspx.cs",
               "RelativeDocumentMoniker": "assignmentDraft1\\uploadMaterial.aspx.cs",
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "uploadMaterial.aspx",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\uploadMaterial.aspx",
               "RelativeDocumentMoniker": "assignmentDraft1\\uploadMaterial.aspx",
@@ -145,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "addCourse.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\addCourse.aspx.cs",
               "RelativeDocumentMoniker": "assignmentDraft1\\addCourse.aspx.cs",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "addCourse.aspx",
               "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\addCourse.aspx",
               "RelativeDocumentMoniker": "assignmentDraft1\\addCourse.aspx",
