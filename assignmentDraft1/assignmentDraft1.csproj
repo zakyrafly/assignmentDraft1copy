@@ -67,11 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="addCourse.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="courses.html" />
+    <Content Include="createAssignment.aspx" />
     <Content Include="home.html" />
     <Content Include="homeWebform.aspx" />
     <Content Include="lessons.aspx" />
@@ -80,11 +82,27 @@
     <Content Include="Register.aspx" />
     <Content Include="register.html" />
     <Content Include="searchResults.aspx" />
+    <Content Include="TeacherDashbord.aspx" />
+    <Content Include="uploadMaterial.aspx" />
     <Content Include="watch-video.html" />
     <Content Include="Web.config" />
     <Content Include="loginWebform.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addCourse.aspx.cs">
+      <DependentUpon>addCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addCourse.aspx.designer.cs">
+      <DependentUpon>addCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createAssignment.aspx.cs">
+      <DependentUpon>createAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createAssignment.aspx.designer.cs">
+      <DependentUpon>createAssignment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homeWebform.aspx.cs">
       <DependentUpon>homeWebform.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -120,6 +138,20 @@
     </Compile>
     <Compile Include="searchResults.aspx.designer.cs">
       <DependentUpon>searchResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherDashbord.aspx.cs">
+      <DependentUpon>TeacherDashbord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeacherDashbord.aspx.designer.cs">
+      <DependentUpon>TeacherDashbord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uploadMaterial.aspx.cs">
+      <DependentUpon>uploadMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uploadMaterial.aspx.designer.cs">
+      <DependentUpon>uploadMaterial.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,48 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\",
+  "WorkspaceRootPath": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|d:\\year 2 sem 2\\wapp\\assignmentdraft1copy\\assignmentdraft1\\homewebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\homewebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|d:\\year 2 sem 2\\wapp\\assignmentdraft1copy\\assignmentdraft1\\searchresults.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\searchresults.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentdraft1\\searchresults.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\searchresults.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assignmentDraft1\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|d:\\year 2 sem 2\\wapp\\assignmentdraft1copy\\assignmentdraft1\\homewebform.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\homewebform.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentdraft1\\homewebform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\homewebform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentdraft1\\loginwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\loginwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\loginwebform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentdraft1\\lessons.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\lessons.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\teacherdashbord.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\teacherdashbord.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentdraft1\\loginwebform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\loginwebform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LENOVO_LEGION_RYZEN5_SOURCE_REPOS_ASSIGNMENTDRAFT1_ASSIGNMENTDRAFT1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\createassignment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\createassignment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO Legion Ryzen5\\source\\repos\\assignmentDraft1\\assignmentDraft1\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\createassignment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\createassignment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\uploadmaterial.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\uploadmaterial.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\addcourse.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\addcourse.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\uploadmaterial.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\uploadmaterial.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|c:\\users\\stanley\\source\\repos\\zakyrafly\\assignmentdraft1copy\\assignmentdraft1\\addcourse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F95A1954-3C32-4CBB-9263-3E3A2A31C6D1}|assignmentDraft1\\assignmentDraft1.csproj|solutionrelative:assignmentdraft1\\addcourse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,142 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "homeWebform.aspx",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\homeWebform.aspx",
-              "RelativeDocumentMoniker": "assignmentDraft1\\homeWebform.aspx",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\homeWebform.aspx",
-              "RelativeToolTip": "assignmentDraft1\\homeWebform.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-16T03:38:19.261Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\css\\style.css",
-              "RelativeDocumentMoniker": "assignmentDraft1\\css\\style.css",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\css\\style.css",
-              "RelativeToolTip": "assignmentDraft1\\css\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-16T09:35:10.882Z",
+              "DocumentIndex": 0,
+              "Title": "loginWebform.aspx",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\loginWebform.aspx",
+              "RelativeDocumentMoniker": "assignmentDraft1\\loginWebform.aspx",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\loginWebform.aspx",
+              "RelativeToolTip": "assignmentDraft1\\loginWebform.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-22T07:28:57.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "searchResults.aspx",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\searchResults.aspx",
-              "RelativeDocumentMoniker": "assignmentDraft1\\searchResults.aspx",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\searchResults.aspx",
-              "RelativeToolTip": "assignmentDraft1\\searchResults.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-15T09:40:01.52Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\Web.config",
+              "RelativeDocumentMoniker": "assignmentDraft1\\Web.config",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\Web.config",
+              "RelativeToolTip": "assignmentDraft1\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-22T07:28:34.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "searchResults.aspx.cs",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\searchResults.aspx.cs",
-              "RelativeDocumentMoniker": "assignmentDraft1\\searchResults.aspx.cs",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\searchResults.aspx.cs",
-              "RelativeToolTip": "assignmentDraft1\\searchResults.aspx.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvzEAAAAJAAAAAAAAAA==",
+              "Title": "TeacherDashbord.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\TeacherDashbord.aspx.cs",
+              "RelativeDocumentMoniker": "assignmentDraft1\\TeacherDashbord.aspx.cs",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\TeacherDashbord.aspx.cs",
+              "RelativeToolTip": "assignmentDraft1\\TeacherDashbord.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T09:41:28.942Z",
+              "WhenOpened": "2025-05-22T07:20:40.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "createAssignment.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\createAssignment.aspx.cs",
+              "RelativeDocumentMoniker": "assignmentDraft1\\createAssignment.aspx.cs",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\createAssignment.aspx.cs",
+              "RelativeToolTip": "assignmentDraft1\\createAssignment.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:12:38.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "homeWebform.aspx.designer.cs",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\homeWebform.aspx.designer.cs",
-              "RelativeDocumentMoniker": "assignmentDraft1\\homeWebform.aspx.designer.cs",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\homeWebform.aspx.designer.cs",
-              "RelativeToolTip": "assignmentDraft1\\homeWebform.aspx.designer.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:57:22.824Z",
+              "Title": "createAssignment.aspx",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\createAssignment.aspx",
+              "RelativeDocumentMoniker": "assignmentDraft1\\createAssignment.aspx",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\createAssignment.aspx",
+              "RelativeToolTip": "assignmentDraft1\\createAssignment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-22T07:12:06.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "homeWebform.aspx.cs",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\homeWebform.aspx.cs",
-              "RelativeDocumentMoniker": "assignmentDraft1\\homeWebform.aspx.cs",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\homeWebform.aspx.cs",
-              "RelativeToolTip": "assignmentDraft1\\homeWebform.aspx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAGoAAAA0AAAAAAAAAA==",
+              "Title": "uploadMaterial.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\uploadMaterial.aspx.cs",
+              "RelativeDocumentMoniker": "assignmentDraft1\\uploadMaterial.aspx.cs",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\uploadMaterial.aspx.cs",
+              "RelativeToolTip": "assignmentDraft1\\uploadMaterial.aspx.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAAwAMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T07:12:04.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "loginWebform.aspx",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\loginWebform.aspx",
-              "RelativeDocumentMoniker": "assignmentDraft1\\loginWebform.aspx",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\loginWebform.aspx",
-              "RelativeToolTip": "assignmentDraft1\\loginWebform.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-05T10:46:54.534Z",
+              "WhenOpened": "2025-05-22T07:11:03.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "lessons.aspx.cs",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\lessons.aspx.cs",
-              "RelativeDocumentMoniker": "assignmentDraft1\\lessons.aspx.cs",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\lessons.aspx.cs",
-              "RelativeToolTip": "assignmentDraft1\\lessons.aspx.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Title": "uploadMaterial.aspx",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\uploadMaterial.aspx",
+              "RelativeDocumentMoniker": "assignmentDraft1\\uploadMaterial.aspx",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\uploadMaterial.aspx",
+              "RelativeToolTip": "assignmentDraft1\\uploadMaterial.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-22T07:10:19.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "addCourse.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\addCourse.aspx.cs",
+              "RelativeDocumentMoniker": "assignmentDraft1\\addCourse.aspx.cs",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\addCourse.aspx.cs",
+              "RelativeToolTip": "assignmentDraft1\\addCourse.aspx.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAuwJoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:29:16.031Z",
+              "WhenOpened": "2025-05-22T07:08:21.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "loginWebform.aspx.cs",
-              "DocumentMoniker": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\loginWebform.aspx.cs",
-              "RelativeDocumentMoniker": "assignmentDraft1\\loginWebform.aspx.cs",
-              "ToolTip": "D:\\YEAR 2 SEM 2\\WAPP\\assignmentDraft1copy\\assignmentDraft1\\loginWebform.aspx.cs",
-              "RelativeToolTip": "assignmentDraft1\\loginWebform.aspx.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T07:11:28.932Z",
+              "Title": "addCourse.aspx",
+              "DocumentMoniker": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\addCourse.aspx",
+              "RelativeDocumentMoniker": "assignmentDraft1\\addCourse.aspx",
+              "ToolTip": "C:\\Users\\Stanley\\source\\repos\\zakyrafly\\assignmentDraft1copy\\assignmentDraft1\\addCourse.aspx",
+              "RelativeToolTip": "assignmentDraft1\\addCourse.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-22T07:07:25.799Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "dbo.Users.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LENOVO_LEGION_RYZEN5_SOURCE_REPOS_ASSIGNMENTDRAFT1_ASSIGNMENTDRAFT1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LENOVO_LEGION_RYZEN5_SOURCE_REPOS_ASSIGNMENTDRAFT1_ASSIGNMENTDRAFT1_APP_DATA_DATABASE1.MDF/True/SqlTable/dbo.Users.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-05T10:47:03.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "login.html",
-              "DocumentMoniker": "C:\\Users\\LENOVO Legion Ryzen5\\source\\repos\\assignmentDraft1\\assignmentDraft1\\login.html",
-              "ToolTip": "C:\\Users\\LENOVO Legion Ryzen5\\source\\repos\\assignmentDraft1\\assignmentDraft1\\login.html",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-05T09:07:17.734Z"
             }
           ]
         }
